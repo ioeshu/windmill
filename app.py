@@ -4,7 +4,7 @@ import random
 import time
 from PIL import Image
 
-streamlit.set_page_config(page_title="Wind Energy Predictor", page_icon="🌪")
+slt.set_page_config(page_title="Wind Energy Predictor", page_icon="🌪")
 
 def main():
     model = joblib.load("lasso.pk1")
